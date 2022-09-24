@@ -19,7 +19,7 @@ const windowHeight = Dimensions.get('window').height;
 
 const TokenCard = ({el}) => {
   return (
-    <View style={[styles.tokens, tw`m-2 rounded-xl`]}>
+    <View style={[styles.tokens, tw`m-2`]}>
       <ImageBackground
         imageStyle={{borderRadius: 30}}
         source={{
